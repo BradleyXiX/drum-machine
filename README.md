@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Drum Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my Submsion for the FreeCodeCamp Certification project for Front-end Libraries certificate.
 
-## Available Scripts
+A simple Drum Machine using React.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This project implements a drum machine with nine pads corresponding to different sound clips. The interface allows users to trigger sounds by clicking on the pads or using keyboard shortcuts. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Drum Pads**: Click or use keyboard shortcuts (Q, W, E, A, S, D, Z, X, C) to trigger sounds.
+- **Visual Feedback**: The current sound's name is displayed when played.
+- **Responsive Design**: Layout adjusts to different screen sizes.
 
-### `npm test`
+## User Stories
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Story #1**: Outer container with `id="drum-machine"` that holds all elements.
+- **User Story #2**: Display element with `id="display"` to show the current sound.
+- **User Story #3**: Nine drum pads, each with unique `id`, `class="drum-pad"`, and keyboard key as inner text.
+- **User Story #4**: Each drum pad contains an audio element with `class="clip"` and `id` matching its key.
+- **User Story #5**: Clicking a drum pad triggers the corresponding sound.
+- **User Story #6**: Keyboard key press triggers the corresponding sound.
+- **User Story #7**: The name of the sound played is shown in the display.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone this repository: git clone https://github.com/BradleyXiX/FCC-Submissions-/tree/main/my-drum-machine
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate to the project directory:  cd my-drum-machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install dependencies:  npm install
 
-### `npm run eject`
+Start the development server:  npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open your browser and go to http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact Me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bradley Chiwo -  BradJohn70@gmail.com
